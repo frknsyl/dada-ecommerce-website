@@ -178,10 +178,11 @@ const OurStore = () => {
                                 <p className='mb-0 d-block'>Sırala</p>
                                 <select 
                                 name='' 
+                                defaultValue='best-selling'
                                 className='form-control form-select'
                                 id=''>
                                     <option value='manual'>Öne Çıkanlar</option>
-                                    <option value='best-selling' selected='selected'>Çok Satanlar</option>
+                                    <option value='best-selling'>Çok Satanlar</option>
                                     <option value='title-ascending'>Alfabetik, (A-Z)</option>
                                     <option value='title-descending'>Alfabetik, (Z-A)</option>
                                     <option value='price-ascending'>Fiyata göre, (Önce en düşük)</option>
